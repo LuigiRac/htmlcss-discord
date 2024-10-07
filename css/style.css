@@ -17,14 +17,14 @@ body {
     color:black
 }
 
- /* .debug {
+ .debug {
     border: 1px solid red;
-} */
+} 
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px 0px;
+    padding: 20px 10px;
 }
 
 .container-hero{
@@ -113,6 +113,10 @@ header ul li a {
     align-items: center;
 }
 
+.flex-wrap {
+    flex-wrap: ;
+}
+
 
 /* footer */
 footer {
@@ -127,7 +131,7 @@ footer {
 /* button */
 .btn {
     display: inline-block;
-    border-radius: 16px;
+    border-radius: 20px;
     padding: 10px 16px;
     background-color: white;
     color: black;
