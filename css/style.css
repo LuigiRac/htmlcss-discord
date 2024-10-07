@@ -14,7 +14,8 @@
 body {
     font-family: 'whitney', 'helvetica neue', Arial, Helvetica, sans-serif;
     background-color: white;
-    color:black
+    color:black;
+    font-size: 15px;
 }
 
  .debug {
@@ -65,6 +66,12 @@ header ul li a {
     color: white
 
 }
+
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+
 /* main */
 .image {
     width: 60%;
@@ -80,13 +87,18 @@ header ul li a {
 #hero {
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    height: 670px;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 
 }
+
+p {
+line-height: 2em;
+}
+
 
 /* flex */
 .flex {
@@ -114,7 +126,7 @@ header ul li a {
 }
 
 .flex-wrap {
-    flex-wrap: ;
+    flex-wrap: wrap;
 }
 
 
@@ -136,4 +148,22 @@ footer {
     background-color: white;
     color: black;
     text-decoration: none;
+}
+
+div.buttons {
+    margin-top: 10px;   
+    
+}
+
+.btn-black{
+background-color: black;
+color: white;
+}
+
+.margin-left {
+    margin-left: 10px;
+}
+
+.margin-right {
+    margin-right: 10px;
 }
