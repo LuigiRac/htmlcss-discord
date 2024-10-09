@@ -18,7 +18,7 @@ body {
     font-size: 15px;
 }
 
- /* .debug {
+   /* .debug {
     border: 1px solid red;
 } */
 
@@ -34,6 +34,9 @@ body {
     text-align: center;
 }
 
+.container-invite {
+    max-width: 400px;
+}
 ul {
     list-style: none;
 }
@@ -107,6 +110,8 @@ header ul li a:hover {
 
 p {
 line-height: 2em;
+/* font-size: 30px; */
+
 }
 
 
@@ -122,10 +127,10 @@ line-height: 2em;
     flex-wrap: wrap;
 }
 
-.tec {
+/* .tec {
     flex-direction: column-reverse;
     align-items: center;
-}
+} */
 
 .sp-bet {
     justify-content: space-between;
@@ -142,12 +147,67 @@ line-height: 2em;
 
 /* footer */
 footer {
-    background-color: rgb(0, 0, 0);   
+    background-color: #23272A;
+    padding-top: 35px;  
 
 }
 
 .footer-top {
-    border-bottom: 1px solid #f6f6f6;
+    border-bottom: 1px solid #7288DA;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.title-list {
+    color: #7288DA;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+}
+
+.title-top-footer {
+    color: #7288DA;
+    font-size: 30px;
+    
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-bottom {
+    justify-content: space-between;
+    padding-top: 15px;
+} 
+
+
+.blue-title li{
+    padding-top: 10px;
+}
+
+.title-max-width {
+    max-width: 300px;
+}
+
+.italy {
+    padding-top: 20px;
+    width: 30px;
+    text-decoration: none;
+}
+.italiano {
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+}
+.social {
+    padding-top: 10px;
+    font-size: 21px;
+    justify-content: space-between;
+    display: flex;
+    max-width: 170px;
+    
 }
 
 /* button */
@@ -177,3 +237,20 @@ color: white;
 .margin-right {
     margin-right: 10px;
 }
+
+.place {
+    display: inline-block;
+    justify-content: center;
+}
+
+
+
+.btn-purple {
+    border-radius: 20px;
+    padding: 10px 16px;
+    background-color: #7288DA;
+    color: white;
+    text-decoration: none;
+    border-color: transparent;
+}
+
