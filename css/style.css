@@ -21,9 +21,9 @@ body {
     font-size: 15px;
 }
 
-    .debug {
+    /* .debug {
     border: 1px solid red;
-}
+} */
 
 .container {
     max-width: 1200px;
@@ -72,13 +72,36 @@ h1 {
     font-size: 47px;
     margin-left: 10%;
     margin-top: 30px;
+    
 }
 
+.par-tec {
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+
 .h3-adventure {
+    font-weight: bold;
+    font-size: 1.5em;
+    background-image: none;
+    background-color: transparent;
+    justify-content: center;
+    padding: 90px;
+  }
+
+
+
+  .bg-adventure {
     background-image: url(../img/stars.svg);
     background-repeat: no-repeat;
-    
+    background-position: 455px 58px;
+    background-color: #F6F6F6;
+
   }
+
+
 .bg-grey {
     background-color: #f6f6f6;
 }
@@ -273,7 +296,11 @@ color: white;
     justify-content: center;
 }
 
-
+.btn-adventure {
+    padding: 10px 0px 40px;
+    display: flex;
+    justify-content: center;
+}
 
 .btn-purple {
     border-radius: 20px;
