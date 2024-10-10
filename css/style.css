@@ -10,6 +10,9 @@
     padding: 0;
     box-sizing:border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     font-family: 'whitney', 'helvetica neue', Arial, Helvetica, sans-serif;
@@ -18,9 +21,9 @@ body {
     font-size: 15px;
 }
 
-   /* .debug {
+    .debug {
     border: 1px solid red;
-} */
+}
 
 .container {
     max-width: 1200px;
@@ -44,9 +47,10 @@ ul {
 h1 {
     padding: 30px;
     font-size: 40px;
+    
 }
 
-.h1-invite {
+/* .h1-invite {
     display: flex;
     height: 86vh;
     flex-direction: column;
@@ -54,8 +58,27 @@ h1 {
     align-items: center;
     font-size: 17px;
     height: 96vh;
+    max-width: 400px;
+    margin-left: 30px;
+} */
+
+.h2-invite {
+    max-width: 400px;
+    font-size: 47px;
+    margin: 30px 30px 30px 0px;
 }
 
+.h2-tec {
+    font-size: 47px;
+    margin-left: 10%;
+    margin-top: 30px;
+}
+
+.h3-adventure {
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    
+  }
 .bg-grey {
     background-color: #f6f6f6;
 }
@@ -111,8 +134,12 @@ header ul li a:hover {
 p {
 line-height: 2em;
 /* font-size: 30px; */
-
 }
+
+.img-tec {
+    width: 1200px;
+}
+
 
 
 /* flex */
@@ -210,6 +237,9 @@ footer ul li a {
     
 }
 
+.adv-height {
+    height: 300px;
+}
 /* button */
 .btn {
     display: inline-block;
